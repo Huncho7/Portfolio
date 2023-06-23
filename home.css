@@ -1,0 +1,166 @@
+body {
+    color: white;
+    background-color: black;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .navbar {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 50px;
+  }
+
+  .logo {
+    margin-right: 40px;
+    font-size: 24px;
+  }
+
+  .logo span {
+    color: white;
+  }
+
+  .logo span:last-child {
+    color: purple;
+  }
+
+  .navbar ul {
+    display: flex;
+    list-style-type: none;
+    
+  }
+
+  .navbar ul li {
+    margin-right: 60px;
+  }
+
+  .navbar a {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .subscribe-button {
+    margin-left: 40px;
+  }
+
+  .subscribe-button button {
+    background-color: purple;
+    color: #fff;
+    border: 1px solid white;
+    padding: 5px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+  }
+
+  .hamburger-menu {
+    display: none; 
+    cursor: pointer;
+  }
+
+  .hamburger-menu span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin-bottom: 5px;
+  }
+
+  /* Responsive styles */
+  @media (max-width: 830px) {
+    .navbar ul {
+      display: none; 
+    }
+
+    .navbar ul.show {
+      display: flex; 
+      flex-direction: column;
+      background-color: #333;
+      position: absolute;
+      top: 50px;
+      left: 0;
+      right: 0;
+    }
+
+    .navbar ul li {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+
+    .hamburger-menu {
+      display: block; 
+    }
+  }
+
+  .section {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    gap: 70px;
+    align-items: center;
+    justify-items: start;
+    padding: 60px;
+    background-color: black;
+  }
+
+  .section .intro {
+    font-size: 20px;
+    line-height: 2.5;
+  }
+
+  /* .section .intro span {
+    display: block;  
+    } */
+
+  .section .intro span.highlight {
+    color: purple;
+  }
+
+  .section .email-input {
+    display: flex;
+    align-items: center;
+    color: black;
+  }
+
+  .section .email-input input[type="email"] {
+    padding: 15px;
+    border-radius: 15px;
+    border: 2px solid purple;
+    width: 400px;
+    color: black;
+  }
+
+  .section .email-input ::placeholder {
+    color: black;
+    font-size: bold;
+  }
+
+  .section .email-input button {
+    background-color: purple;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    position: relative;
+    
+    right: 115px;
+  }
+
+  .section-b {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    align-items: center;
+    justify-items: start;
+    gap: 30px;
+    background-color: black;
+    /* padding: 60px; */
+    padding-left: 60px;
+    margin-top: -50px;
+  }
+
+  

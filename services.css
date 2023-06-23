@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#circle-section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+  }
+  
+  .circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: purple;
+    margin: 0 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  
+  .circle-content {
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .circle-icon {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .circle-header {
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  
+  .circle-text {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+
+  #read-more-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  #read-more-button {
+    padding: 10px 30px;
+    background-color: purple;
+    border: 1px solid white;
+    border-radius: 8px;
+    color: white;
+    font-size: 12px;
+  }
+
+  .beautiful-designs {
+    display: grid;
+    grid-template-columns: 80% 20%;
+    gap: 20px;
+    padding:50px 30px;
+    margin-top: 20px;
+    background-color: rgb(62, 59, 59);
+  }
+
+  .beautiful-designs p {
+    font-size: 25px;
+    padding-left: 20%;
+    color: rgb(227, 224, 224); 
+  }
+
+  .beautiful-designs button {
+    border-radius: 13px;
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    background-color: purple;
+  }
+
+  .joy-rufus {
+    margin-top: 20px;
+  }
+
+  .joy-rufus h3 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+
+  .joy-rufus p {
+    text-align: center;
+    font-size: 20px;
+  }
+  
+  
